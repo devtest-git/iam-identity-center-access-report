@@ -7,6 +7,7 @@ It helps in auditing:
 - Users and Groups access across accounts
 - AWS SSO / IAM Identity Center governance
 
+- https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/export-a-report-of-aws-iam-identity-center-identities-and-their-assignments-by-using-powershell.html
 ---
 
 ## 🚀 What This Script Does
