@@ -65,12 +65,8 @@ Install-Module -Name AWS.Tools.IdentityStore -Force -AllowClobber -Scope Current
 
 The IAM role/user must have:
 
-- `organizations:ListAccounts`
-- `sso-admin:ListPermissionSets`
-- `sso-admin:ListAccountAssignments`
-- `sso-admin:DescribePermissionSet`
-- `identitystore:DescribeUser`
-- `identitystore:DescribeGroup`
+- `AWSSSOReadOnly`
+- `AWSSSODirectoryReadOnly`
 
 ---
 
