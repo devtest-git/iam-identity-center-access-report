@@ -53,7 +53,9 @@ Install required modules:
 
 ```powershell
 Install-Module AWS.Tools.Installer -Force
-Install-AWSToolsModule AWS.Tools.IdentityStore, AWS.Tools.SSOAdmin, AWS.Tools.Organizations -Force
+Install-Module -Name AWS.Tools.Organizations -Force -AllowClobber -Scope CurrentUser
+Install-Module -Name AWS.Tools.SSOAdmin -Force -AllowClobber -Scope CurrentUser
+Install-Module -Name AWS.Tools.IdentityStore -Force -AllowClobber -Scope CurrentUser
 ```
 
 ---
